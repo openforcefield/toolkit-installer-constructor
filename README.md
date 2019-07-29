@@ -4,6 +4,11 @@ This repository contains the build script for the Open Force Field tookit single
 
 _Special thanks to @loriab and the Psi4 community, as this is basically a copy of [their build system](https://github.com/psi4/psi4meta/tree/master/conda-recipes/constructor-cutter-unified)_
 
+## Status
+
+* There is a problem with the jupyter installation in the post-linking step.
+* The installer seems to build and install correctly on OSX without jupyter, but I think it's really important to have it.
+
 ## Usage
 
 
