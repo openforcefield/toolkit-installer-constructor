@@ -6,6 +6,6 @@
 #
 # [i86]: https://github.com/conda/constructor/issues/86#issuecomment-330863531
 if [[ -e site-packages ]]; then
-    cp -r site-packages/* $PREFIX/lib/python?.?/site-packages
+    cp -r site-packages/* $PREFIX/lib/python{{ cookiecutter.python }}/site-packages
     rm -r site-packages
 fi
