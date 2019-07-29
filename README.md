@@ -18,6 +18,3 @@ _Special thanks to @loriab and the Psi4 community, as this is basically a copy o
 * `python run.py`
 
 * watch out for `py_` in buildstring as this means a noarch and must be eliminated
-
-* log in to vergil root and make WindowsWSL symlinks
-
