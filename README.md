@@ -6,8 +6,8 @@ _Special thanks to @loriab and the Psi4 community, as this is basically a copy o
 
 ## Status
 
-* There is a problem with the jupyter installation in the post-linking step.
-* The installer seems to build and install correctly on OSX without jupyter, but I think it's really important to have it.
+* This recipe is active and functional as of 2019-08-01
+* We do not yet have permission from OpenEye to include the `openeye-toolkits` conda package in the installer yet.
 
 ## Usage
 
