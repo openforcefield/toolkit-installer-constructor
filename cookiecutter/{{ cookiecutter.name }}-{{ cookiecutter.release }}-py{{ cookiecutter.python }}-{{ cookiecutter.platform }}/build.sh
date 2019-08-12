@@ -1,2 +1,2 @@
 #!/bin/bash
-constructor --platform {{ cookiecutter.platform }} .
+constructor -v --platform {{ cookiecutter.platform }} .

@@ -13,7 +13,6 @@ installer_filename: {{ cookiecutter.name }}-{{ cookiecutter.release }}-py{{ cook
 specs:
   - conda
   - notebook
-  - python
   - openforcefield
   - smirnoff99Frosst
   - python {{ cookiecutter.python }}*
@@ -29,10 +28,13 @@ channels: &id1
   - http://repo.anaconda.com/pkgs/main/
 
 
+
 conda_default_channels: *id1
 
 install_in_dependency_order: true
 
-ignore_duplicate_files: True
+ignore_duplicate_files: true
 
 keep_pkgs: false
+
+initialize_by_default: false
