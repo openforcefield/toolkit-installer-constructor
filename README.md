@@ -7,7 +7,7 @@ _Special thanks to @loriab and the Psi4 community, as this is basically a copy o
 ## Status
 
 * This recipe is active and functional as of 2019-08-01
-* We do not yet have permission from OpenEye to include the `openeye-toolkits` conda package in the installer yet.
+* We do not yet have permission from OpenEye to include the `openeye-toolkits` conda package in the installer.
 
 ## Usage
 
@@ -22,4 +22,4 @@ _Special thanks to @loriab and the Psi4 community, as this is basically a copy o
 
 * `python run.py`
 
-* watch out for `py_` in buildstring as this means a noarch and must be eliminated
+* watch out for `py_` in buildstring as this means a noarch, which can be troublesome
