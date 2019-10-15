@@ -13,6 +13,7 @@ installer_filename: {{ cookiecutter.name }}-{{ cookiecutter.release }}-py{{ cook
 specs:
   - conda
   - notebook
+  - requests
   - openforcefield
   - smirnoff99Frosst
   - python {{ cookiecutter.python }}*
