@@ -18,6 +18,7 @@ specs:
   - smirnoff99Frosst
   - python {{ cookiecutter.python }}*
   - pytest
+  - openmm 7.4
 
 # https://github.com/conda/constructor/issues/86
 # https://github.com/openturns/otconda/blob/master/construct.yaml.in
