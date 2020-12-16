@@ -18,7 +18,9 @@ specs:
   - smirnoff99Frosst
   - python {{ cookiecutter.python }}*
   - pytest
-  - openmm 7.4
+  # Pin to pre-conda-forge openmm so that the constructor doesn't pull down cudatoolkit, which 
+  # puts the installers is above GitHub's artifact size limit.
+  - openmm 7.4.2
 
 # https://github.com/conda/constructor/issues/86
 # https://github.com/openturns/otconda/blob/master/construct.yaml.in
