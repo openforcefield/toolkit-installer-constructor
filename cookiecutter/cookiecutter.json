@@ -1,13 +1,12 @@
 {
-  "name": "openforcefield",
-  "channel": "omnia",
+  "name": "openff-toolkit",
+  "channel": "conda-forge",
   "python": [
-    "3.6",
-    "3.7"
+    "3.7",
+    "3.6"
   ],
   "platform": [
-    "linux-64",
     "osx-64"
   ],
-  "release": "0.4.1"
+  "release": "0.7.2"
 }
