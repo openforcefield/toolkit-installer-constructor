@@ -2,6 +2,8 @@ name: {{ cookiecutter.name }}
 
 version: "{{ cookiecutter.release }}"
 
+# What's the purpose of this translation? It only appears to be used in setting
+# the filename and the output has the same human readability
 {% if cookiecutter.platform == "linux-64" %}
     {% set platform2 = "Linux-x86_64" %}
 {% elif cookiecutter.platform == "osx-64" %}
@@ -11,13 +13,8 @@ version: "{{ cookiecutter.release }}"
 installer_filename: {{ cookiecutter.name }}-{{ cookiecutter.release }}-py{{ cookiecutter.python | replace(".", "") }}-{{ platform2 }}.sh
 
 specs:
-  - conda
-  - notebook
-  - requests
-  - openff-toolkit
-  - smirnoff99Frosst
+  - openff-bespokefit
   - python {{ cookiecutter.python }}*
-  - pytest
 
 post_install: post_install.sh  [unix]
 

@@ -1,5 +1,5 @@
 {
-  "name": "openff-toolkit",
+  "name": "openff-bespokefit",
   "channel": "conda-forge",
   "python": [
     "3.7",
