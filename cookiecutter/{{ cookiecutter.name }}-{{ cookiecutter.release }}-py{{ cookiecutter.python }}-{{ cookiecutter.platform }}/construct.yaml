@@ -15,6 +15,7 @@ installer_filename: {{ cookiecutter.name }}-{{ cookiecutter.release }}-py{{ cook
 specs:
   - openff-bespokefit
   - ambertools
+  - xtb-python
   - python {{ cookiecutter.python }}*
 
 post_install: post_install.sh  [unix]
